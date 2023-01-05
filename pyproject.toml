@@ -1,0 +1,39 @@
+[build-system]
+requires = [
+    "setuptools>=60.0.0",
+    "wheel",
+    "pybind11>=2.10.1",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "candlewick"
+dynamic = ["version"]
+authors = [
+    {name = "Bayar Park"},
+]
+maintainers = [
+    {name = "Bayar Park"},
+]
+description = "Miscellaneous tools for computer vision and 2D-geometry"
+readme = "README.md"
+license = {text = "Mozilla Public License 2.0"}
+classifiers = [
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: GIS",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+requires-python = ">=3.8"
+dependencies = [
+    "shapely>=1.8.0",
+]
