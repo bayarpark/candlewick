@@ -4,7 +4,6 @@ The package provides a set of ready-to-use functions for working with 2D geometr
 
 ## Key Features
 
----
 #### 1. Polyline (polygons) simplification algorithms
 candlewick contains a number of simplification algorithm, including:
 - n-th point,
@@ -20,13 +19,10 @@ as python bindings with C++ [`psimpl` library](https://psimpl.sourceforge.net/in
 - Li-Openshaw 
 - Raposo (Hexagon Based)
 
-
-
+as pure-python implementation (*in progress*).
 
 
 ## Installation
-
----
 
 ##### pip
 `candlewick` is available on PyPI and can be installed using:
