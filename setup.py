@@ -20,7 +20,7 @@ setup(
     name="candlewick",
     version=__version__,
     author="Bayar Park",
-    author_email="bayarpark(at)gmail[dot]com",
+    author_email="bayarpark@gmail.com",
     url="https://github.com/bayarpark/candlewick",
     packages=["candlewick", "candlewick.psimpl"],
     ext_modules=ext_modules,
