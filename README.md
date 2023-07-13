@@ -25,13 +25,7 @@ as pure-python implementation (*in progress*).
 ## Installation
 
 ##### pip
-`candlewick` is available on PyPI and can be installed using:
+Installation available via `pip` directly from GitHub:
 ```bash
-pip install candlewick
-```
-
-##### conda
-`candlewick` is also available via conda:
-```bash
-conda install -c conda-forge candlewick
+pip install git+https://github.com/bayarpark/candlewick.git
 ```
